@@ -186,6 +186,10 @@ iframe {
   font-size: 14px;
 }
 /* About Section */
+.about{
+	margin-left: 7px;
+	margin-right: 7px;
+}
 /* Latest Section */
 .latest .item {
   margin-bottom: 30px;
