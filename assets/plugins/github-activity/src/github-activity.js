@@ -263,7 +263,7 @@ var GitHubActivity = (function() {
         activity = Mustache.render(templates.EventsNotFound, { username: options.username });
       } else {
         var limit = options.limit != 'undefined' ? parseInt(options.limit, 10) : null;
-        activity = methods.getActivityHTML(output, limit);
+        activity = methods.getActivityHTML(output, 10);
       }
       methods.renderIfReady(selector, header, activity);
     });
